@@ -13,5 +13,4 @@ class Solution:
                 continue
             valid.append((order[b], c))
         valid.sort(key=lambda x: (x[0], x[1]))
-
         return [c for _, c in valid]
