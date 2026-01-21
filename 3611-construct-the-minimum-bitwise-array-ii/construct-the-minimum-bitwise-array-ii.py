@@ -6,4 +6,5 @@ class Solution:
                 res.append(n & ~(((n + 1) & ~n) >> 1))
             else:
                 res.append(-1)
-        return res          
+        return res
+        
